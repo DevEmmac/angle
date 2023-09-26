@@ -1,0 +1,25 @@
+
+.shapes {
+    display: flex;
+    flex-grow: row;
+    flex-wrap: nowrap;
+}
+
+ .tri {
+    width: 8rem;
+    height: 4rem;
+    background-color: black;
+    position: relative;
+
+}
+.shapes >.angle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    align-self: center;
+}
